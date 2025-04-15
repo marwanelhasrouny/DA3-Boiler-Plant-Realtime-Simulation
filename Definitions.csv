@@ -1,0 +1,48 @@
+Code,Abbreviation,Data point name,Description,Unit,Basic point?
+BOI_FLOW_1,BOI_FLOW,Boiler: Water Flow Rate,"Flow rate of the hot water
+leaving a boiler",GPM,N
+BOI_FLOW_2,BOI_FLOW,Boiler: Water Flow Rate,"Flow rate of the hot water
+leaving a boiler",GPM,N
+BOI_GAS_CSUM_1,BOI_GAS_CSUM,Boiler: Gas Consumption,Gas consumption of a boiler,kW,N
+BOI_GAS_CSUM_2,BOI_GAS_CSUM,Boiler: Gas Consumption,Gas consumption of a boiler,kW,N
+BOI_RW_TEMP_1,BOI_RW_TEMP,"Boiler: Return Water
+Temperature","Temperature of the water
+entering a boiler",°F,Y
+BOI_RW_TEMP_2,BOI_RW_TEMP,"Boiler: Return Water
+Temperature","Temperature of the water
+entering a boiler",°F,Y
+BOI_STA_1,BOI_STA,Boiler: Status,On-off status of a boiler,0-Off;1-On,Y
+BOI_STA_2,BOI_STA,Boiler: Status,On-off status of a boiler,0-Off;1-On,Y
+BOI_SW_TEMP_1,BOI_SW_TEMP,"Boiler: Supply Water
+Temperature","Temperature of the water
+leaving a boiler",°F,Y
+BOI_SW_TEMP_2,BOI_SW_TEMP,"Boiler: Supply Water
+Temperature","Temperature of the water
+leaving a boiler",°F,Y
+HWL_DP,HWL_DP,"Hot Water Loop: Differential
+Pressure","Pressure differential of the hot
+water loop",In H2O,Y
+HWL_DPSPT,HWL_DPSPT,"Hot Water Loop Supply Water
+Temperature Setpoint","Setpoint for temperature of the
+water leaving the hot water loop",°F,Y
+HWL_RW_TEMP,HWL_RW_TEMP,"Hot Water Loop: Return Water
+Temperature","Temperature of the water
+entering the hot water loop",°F,Y
+HWL_SW_TEMP,HWL_SW_TEMP,"Hot Water Loop: Supply Water
+Temperature","Temperature of the water
+leaving the hot water loop",°F,Y
+OA_TEMP,OA_TEMP,"Outdoor Air: Dry Bulb
+Temperature","Dry bulb temperature of
+outdoor air",°F,Y
+PM_POW_1,PM_POW,Pump: Power Consumption,Power consumption of pump,kW,N
+PM_POW_2,PM_POW,Pump: Power Consumption,Power consumption of pump,kW,N
+PM_SPD_1,PM_SPD,"Hot Water Loop Pump: Speed
+Ratio",Speed of a pump,0-1,Y
+PM_SPD_2,PM_SPD,"Hot Water Loop Pump: Speed
+Ratio",Speed of a pump,0-1,Y
+PM_STA_1,PM_STA,Pump: Status,On-off status of a pump,0-Off;1-On,Y
+PM_STA_2,PM_STA,Pump: Status,On-off status of a pump,0-Off;1-On,Y
+SEC_POW,SEC_POW,Secondary Loop Load,"Calculated heating load from hot
+water loop, product of hot water
+loop flow and supply/return
+temperature difference",kW,N
